@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     grid-column-end: span 2;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .construtor__resultado .resultado__imagemlogo {
     width: 100px;

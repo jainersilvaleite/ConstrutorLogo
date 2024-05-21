@@ -17,7 +17,7 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .corfonteprimaria__seletor__botao {
     display: inline-flex;
