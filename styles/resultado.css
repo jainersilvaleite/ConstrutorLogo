@@ -1,0 +1,276 @@
+/* Modelo 1 */
+
+/*
+    <img class="resultado__imagemlogo" id="imagemlogo_resultado" src="imgs/nobackground/logocor1.png">
+    <p class="resultado__textologo">
+        <span class="textologo__signum">
+            Signum
+        </span>
+        <span class="textologo__libras">
+            Libras
+        </span>
+    </p>
+*/
+
+.construtor__resultado {
+    column-gap: 10px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    grid-column-end: span 2;
+    border: 1px solid red;
+}
+.construtor__resultado .resultado__imagemlogo {
+    width: 100px;
+    height: 100px;
+}
+.construtor__resultado .resultado__textologo {
+    font-size: 3.5em;
+}
+
+/* Modelo 2 */
+
+/*
+    <img class="resultado__imagemlogo" id="imagemlogo_resultado" src="imgs/nobackground/logocor1.png">
+    <p class="resultado__textologo">
+        <span class="textologo__signum">
+            Signum
+        </span>
+        <span class="textologo__libras">
+            Libras
+        </span>
+    </p>
+*/
+
+/*
+.construtor__resultado {
+    column-gap: 10px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    grid-column-end: span 2;
+    border: 1px solid red;
+}
+.construtor__resultado .resultado__imagemlogo {
+    width: 100px;
+    height: 100px;
+}
+.construtor__resultado .resultado__textologo {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    font-size: 3.5em;
+}
+*/
+
+/* Modelo 3 */
+
+/*
+    <span class="textologo__signum">
+        Signum
+    </span>    
+    <img class="resultado__imagemlogo" id="imagemlogo_resultado" src="imgs/nobackground/logocor1.png">
+    <span class="textologo__libras">
+        Libras
+    </span>
+*/
+
+/*
+.construtor__resultado {
+    column-gap: 10px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    grid-column-end: span 2;
+    border: 1px solid red;
+}
+.construtor__resultado .resultado__imagemlogo {
+    width: 100px;
+    height: 100px;
+}
+.construtor__resultado .textologo__signum {
+    font-size: 3.5em;
+}
+.construtor__resultado .textologo__libras {
+    font-size: 3.5em;
+}
+*/
+
+/* Modelo 4 */
+
+/*
+    <p class="resultado__textologo">
+        <span class="textologo__signum">
+            Signum
+        </span>
+        <span class="textologo__libras">
+            Libras
+        </span>
+    </p>
+    <img class="resultado__imagemlogo" id="imagemlogo_resultado" src="imgs/nobackground/logocor1.png">
+*/
+
+/*
+.construtor__resultado {
+    column-gap: 10px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    grid-column-end: span 2;
+    border: 1px solid red;
+}
+.construtor__resultado .resultado__imagemlogo {
+    width: 100px;
+    height: 100px;
+}
+.construtor__resultado .resultado__textologo {
+    font-size: 3.5em;
+}
+*/
+
+/* Modelo 5 */
+
+/*
+    <p class="resultado__textologo">
+        <span class="textologo__signum">
+            Signum
+        </span>
+        <span class="textologo__libras">
+            Libras
+        </span>
+    </p>
+    <img class="resultado__imagemlogo" id="imagemlogo_resultado" src="imgs/nobackground/logocor1.png">
+*/
+
+/*
+.construtor__resultado {
+    column-gap: 10px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    grid-column-end: span 2;
+    border: 1px solid red;
+}
+.construtor__resultado .resultado__imagemlogo {
+    width: 100px;
+    height: 100px;
+}
+.construtor__resultado .resultado__textologo {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    font-size: 3.5em;
+}
+*/
+
+/* Modelo 6 */
+
+/*
+    <p class="resultado__textologo">
+        <span class="textologo__signum">
+            Signum
+        </span>
+        <span class="textologo__libras">
+            Libras
+        </span>
+    </p>
+    <img class="resultado__imagemlogo" id="imagemlogo_resultado" src="imgs/nobackground/logocor1.png">
+*/
+
+/*
+.construtor__resultado {
+    column-gap: 10px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    grid-column-end: span 2;
+    border: 1px solid red;
+}
+.construtor__resultado .resultado__imagemlogo {
+    width: 100px;
+    height: 100px;
+}
+.construtor__resultado .resultado__textologo {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    font-size: 3.5em;
+}
+.construtor__resultado .resultado__textologo .textologo__signum {
+    font-size: 1.5em;
+}
+*/
+
+/* Modelo 7 */
+
+/*
+    <img class="resultado__imagemlogo" id="imagemlogo_resultado" src="imgs/nobackground/logocor1.png">
+    <p class="resultado__textologo">
+        <span class="textologo__signum">
+            Signum
+        </span>
+        <span class="textologo__libras">
+            Libras
+        </span>
+    </p>
+*/
+
+/*
+.construtor__resultado {
+    column-gap: 10px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    grid-column-end: span 2;
+    border: 1px solid red;
+}
+.construtor__resultado .resultado__imagemlogo {
+    width: 100px;
+    height: 100px;
+}
+.construtor__resultado .resultado__textologo {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    font-size: 3.5em;
+}
+.construtor__resultado .resultado__textologo .textologo__signum {
+    font-size: 1.5em;
+}
+*/
+
+/* Modelo 8 */
+
+/*
+    <p class="resultado__textologo">
+        <span class="textologo__signum">
+            Signum
+        </span>
+        <span class="textologo__libras">
+            Libras
+        </span>
+    </p>
+    <img class="resultado__imagemlogo" id="imagemlogo_resultado" src="imgs/nobackground/logocor1.png">
+*/
+
+/*
+.construtor__resultado {
+    column-gap: 10px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    grid-column-end: span 2;
+    border: 1px solid red;
+}
+.construtor__resultado .resultado__imagemlogo {
+    width: 100px;
+    height: 100px;
+}
+.construtor__resultado .resultado__textologo {
+    font-size: 3.5em;
+}
+*/

@@ -1,0 +1,30 @@
+:root {
+    --cor__de__fundo: #F5F5F5;
+}
+
+@font-face {
+    font-family: "Mosk";
+    src: url("../fonts/Mosk\ Medium\ 500.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mosk";
+}
+
+body {
+    background-color: var(--cor__de__fundo);
+}
+
+.construtor {
+    margin: auto;
+    display: grid;
+    width: 1000px;
+    column-gap: 25px;
+    row-gap: 10px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+}

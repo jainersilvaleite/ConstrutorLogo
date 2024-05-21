@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignumLibras: Construtor de Logo</title>
+
+    <!-- Links Externos -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/resultado.css">
+    <link rel="stylesheet" href="styles/corlogo.css">
+    <link rel="stylesheet" href="styles/modelologo.css">
+    <link rel="stylesheet" href="styles/fonte1.css">
+    <link rel="stylesheet" href="styles/fonte2.css">
+    <link rel="stylesheet" href="styles/corfonte1.css">
+    <link rel="stylesheet" href="styles/corfonte2.css">
+
+</head>
+
+<body>
+    <main class="construtor">
+        <section class="construtor__resultado" id="resultado">
+            <img class="resultado__imagemlogo" id="imagemlogo_resultado" src="imgs/nobackground/logocor1.png">
+            <p class="resultado__textologo" id="textologo">
+                <span class="textologo__signum" id="signum">
+                    Signum
+                </span>
+                <span class="textologo__libras" id="libras">
+                    Libras
+                </span>
+            </p>
+        </section>
+        <section class="construtor__corimagemlogo__seletor">
+            <div class="corimagemlogo__seletor__botao" id="botao__corimagemlogo">
+                <div class="corimagemlogo__seletor__titulo">Cor da Logo</div>
+                <div class="corimagemlogo__seletor__expandir">
+                    >>
+                </div> 
+            </div>
+            <ul class="corimagemlogo__seletor__opcoes" id="opcoes__corimagemlogo">
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1c1">
+                        <div class="opcoes__opcao__botao__corprevia1"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#000000</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1c2">
+                        <div class="opcoes__opcao__botao__corprevia2"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#e0e0e0</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1c3">
+                        <div class="opcoes__opcao__botao__corprevia3"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#b39ddb</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1c4">
+                        <div class="opcoes__opcao__botao__corprevia4"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#a8e6cf</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1c5">
+                        <div class="opcoes__opcao__botao__corprevia5"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#4ba3c3</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1c6">
+                        <div class="opcoes__opcao__botao__corprevia6"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#084c61</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1c7">
+                        <div class="opcoes__opcao__botao__corprevia7"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#ffeb3b</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1c8">
+                        <div class="opcoes__opcao__botao__corprevia8"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#ffd700</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1c9">
+                        <div class="opcoes__opcao__botao__corprevia9"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#ff9800</div>
+                    </button>
+                </li>
+            </ul>
+        </section>
+        <!--
+        <section class="construtor__modelologo__seletor">
+            <div class="modelologo__seletor__botao" id="botao__modelologo">
+                <div class="modelologo__seletor__titulo">Modelo da Logo</div>
+                <div class="modelologo__seletor__expandir">
+                    >>
+                </div> 
+            </div>
+            <ul class="modelologo__seletor__opcoes" id="opcoes__modelologo">
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1m1">
+                        <div class="modelo">Modelo 1</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1m2">
+                        <div class="modelo">Modelo 2</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1m3">
+                        <div class="modelo">Modelo 3</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1m4">
+                        <div class="modelo">Modelo 4</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1m5">
+                        <div class="modelo">Modelo 5</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1m6">
+                        <div class="modelo">Modelo 6</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1m7">
+                        <div class="modelo">Modelo 7</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s1m8">
+                        <div class="modelo">Modelo 8</div>
+                    </button>
+                </li>
+            </ul>
+        </section>
+        -->
+        <section class="construtor__fonteprimaria__seletor">
+            <div class="fonteprimaria__seletor__botao" id="botao__fonteprimaria">
+                <div class="fonteprimaria__seletor__titulo">Fonte Primária</div>
+                <div class="fonteprimaria__seletor__expandir">
+                    >>
+                </div> 
+            </div>
+            <ul class="fonteprimaria__seletor__opcoes" id="opcoes__fonteprimaria">
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="bellotapreview">Bellota</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="poetsenpreview">Poetsen One</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="pacificopreview">Pacifico</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="cookiepreview">Cookie</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="amaranthpreview">Amaranth</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="vigapreview">Viga</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="salsapreview">Salsa</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="itimpreview">Itim</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="balsamiqpreview">Balsamiq Sans</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="caveatpreview">Caveat Brush</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="quintessentialpreview">Quintessential</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="justpreview">Just Another Hand</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="ranchopreview">Rancho</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="afacadpreview">Afacad</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="mochiypreview">Mochiy Pop One</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="inderpreview">Inder</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="oreganopreview">Oregano</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="bakbakpreview">Bakbak One</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="moskpreview">Mosk</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="poppinspreview">Poppins</div>
+                    </button>
+                </li>
+            </ul>
+        </section>
+        <section class="construtor__fontesecundaria__seletor">
+            <div class="fontesecundaria__seletor__botao" id="botao__fontesecundaria">
+                <div class="fontesecundaria__seletor__titulo">Fonte Secundária</div>
+                <div class="fontesecundaria__seletor__expandir">
+                    >>
+                </div> 
+            </div>
+            <ul class="fontesecundaria__seletor__opcoes" id="opcoes__fontesecundaria">
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="bellotapreview">Bellota</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="poetsenpreview">Poetsen One</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="pacificopreview">Pacifico</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="cookiepreview">Cookie</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="amaranthpreview">Amaranth</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="vigapreview">Viga</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="salsapreview">Salsa</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="itimpreview">Itim</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="balsamiqpreview">Balsamiq Sans</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="caveatpreview">Caveat Brush</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="quintessentialpreview">Quintessential</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="justpreview">Just Another Hand</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="ranchopreview">Rancho</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="afacadpreview">Afacad</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="mochiypreview">Mochiy Pop One</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="inderpreview">Inder</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="oreganopreview">Oregano</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="bakbakpreview">Bakbak One</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="moskpreview">Mosk</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao">
+                        <div class="poppinspreview">Poppins</div>
+                    </button>
+                </li>
+            </ul>
+        </section>
+        <section class="construtor__corfonteprimaria__seletor">
+            <div class="corfonteprimaria__seletor__botao" id="botao__corfonteprimaria">
+                <div class="corfonteprimaria__seletor__titulo">Cor da 1ª Fonte</div>
+                <div class="corfonteprimaria__seletor__expandir">
+                    >>
+                </div> 
+            </div>
+            <ul class="corfonteprimaria__seletor__opcoes" id="opcoes__corfonteprimaria">
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s2c1">
+                        <div class="opcoes__opcao__botao__corprevia1"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#000000</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s2c2">
+                        <div class="opcoes__opcao__botao__corprevia2"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#e0e0e0</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s2c3">
+                        <div class="opcoes__opcao__botao__corprevia3"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#b39ddb</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s2c4">
+                        <div class="opcoes__opcao__botao__corprevia4"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#a8e6cf</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s2c5">
+                        <div class="opcoes__opcao__botao__corprevia5"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#4ba3c3</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s2c6">
+                        <div class="opcoes__opcao__botao__corprevia6"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#084c61</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s2c7">
+                        <div class="opcoes__opcao__botao__corprevia7"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#ffeb3b</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s2c8">
+                        <div class="opcoes__opcao__botao__corprevia8"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#ffd700</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s2c9">
+                        <div class="opcoes__opcao__botao__corprevia9"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#ff9800</div>
+                    </button>
+                </li>
+            </ul>
+        </section>
+        <section class="construtor__corfontesecundaria__seletor">
+            <div class="corfontesecundaria__seletor__botao" id="botao__corfontesecundaria">
+                <div class="corfontesecundaria__seletor__titulo">Cor da 2ª Fonte</div>
+                <div class="corfontesecundaria__seletor__expandir">
+                    >>
+                </div> 
+            </div>
+            <ul class="corfontesecundaria__seletor__opcoes" id="opcoes__corfontesecundaria">
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s3c1">
+                        <div class="opcoes__opcao__botao__corprevia1"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#000000</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s3c2">
+                        <div class="opcoes__opcao__botao__corprevia2"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#e0e0e0</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s3c3">
+                        <div class="opcoes__opcao__botao__corprevia3"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#b39ddb</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s3c4">
+                        <div class="opcoes__opcao__botao__corprevia4"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#a8e6cf</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s3c5">
+                        <div class="opcoes__opcao__botao__corprevia5"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#4ba3c3</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s3c6">
+                        <div class="opcoes__opcao__botao__corprevia6"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#084c61</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s3c7">
+                        <div class="opcoes__opcao__botao__corprevia7"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#ffeb3b</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s3c8">
+                        <div class="opcoes__opcao__botao__corprevia8"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#ffd700</div>
+                    </button>
+                </li>
+                <li class="seletor__opcoes__opcao">
+                    <button class="seletor__opcoes__opcao__botao" id="s3c9">
+                        <div class="opcoes__opcao__botao__corprevia9"></div>
+                        <div class="opcoes__opcao__botao__corcodigo">#ff9800</div>
+                    </button>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/corimagem.js"></script>
+    <!-- <script src="scripts/modelologo.js"></script> -->
+    <script src="scripts/fonte1.js"></script>
+    <script src="scripts/fonte2.js"></script>
+    <script src="scripts/corfonte1.js"></script>
+    <script src="scripts/corfonte2.js"></script>
+</body>
+
+</html>
