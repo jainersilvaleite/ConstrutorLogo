@@ -6,9 +6,9 @@ const s1c3 = document.getElementById("s1c3");
 const s1c4 = document.getElementById("s1c4");
 const s1c5 = document.getElementById("s1c5");
 const s1c6 = document.getElementById("s1c6");
-const s1c7 = document.getElementById("s1c7");
-const s1c8 = document.getElementById("s1c8");
-const s1c9 = document.getElementById("s1c9");
+// const s1c7 = document.getElementById("s1c7");
+// const s1c8 = document.getElementById("s1c8");
+// const s1c9 = document.getElementById("s1c9");
 
 s1c1.addEventListener("click", () => {
     imagemlogo_resultado.setAttribute(
@@ -40,18 +40,18 @@ s1c6.addEventListener("click", () => {
         "src", "imgs/nobackground/logocor6.png"
     );
 });
-s1c7.addEventListener("click", () => {
-    imagemlogo_resultado.setAttribute(
-        "src", "imgs/nobackground/logocor7.png"
-    );
-});
-s1c8.addEventListener("click", () => {
-    imagemlogo_resultado.setAttribute(
-        "src", "imgs/nobackground/logocor8.png"
-    );
-});
-s1c9.addEventListener("click", () => {
-    imagemlogo_resultado.setAttribute(
-        "src", "imgs/nobackground/logocor9.png"
-    );
-});
+// s1c7.addEventListener("click", () => {
+//     imagemlogo_resultado.setAttribute(
+//         "src", "imgs/nobackground/logocor7.png"
+//     );
+// });
+// s1c8.addEventListener("click", () => {
+//     imagemlogo_resultado.setAttribute(
+//         "src", "imgs/nobackground/logocor8.png"
+//     );
+// });
+// s1c9.addEventListener("click", () => {
+//     imagemlogo_resultado.setAttribute(
+//         "src", "imgs/nobackground/logocor9.png"
+//     );
+// });

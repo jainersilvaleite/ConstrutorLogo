@@ -65,7 +65,7 @@ const exibirOpcoesCorFonteSecundaria = () => {
 }
 
 botao__corimagemlogo.addEventListener("click", exibirOpcoesCorImagemLogo);
-// botao__modelologo.addEventListener("click", exibirOpcoesModeloLogo)
+botao__modelologo.addEventListener("click", exibirOpcoesModeloLogo)
 botao__fonteprimaria.addEventListener("click", exibirOpcoesFontePrimaria);
 botao__fontesecundaria.addEventListener("click", exibirOpcoesFonteSecundaria);
 botao__corfonteprimaria.addEventListener("click", exibirOpcoesCorFontePrimaria);

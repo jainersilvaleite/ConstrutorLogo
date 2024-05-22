@@ -2,6 +2,12 @@
     --cor__do__botao: rgb(102, 61, 0);
     --cor__do__botao_expansao: rgb(196, 118, 0);
     --cor1: #000000;
+    --cor2: #00296b;
+    --cor3: #003f88;
+    --cor4: #00509d;
+    --cor5: #fdc500;
+    --cor6: #ffd500;
+    /* --cor1: #000000;
     --cor2: #e0e0e0;
     --cor3: #b39ddb;
     --cor4: #a8e6cf;
@@ -9,7 +15,7 @@
     --cor6: #084c61;
     --cor7: #ffeb3b;
     --cor8: #ffd700;
-    --cor9: #ff9800;
+    --cor9: #ff9800; */
 }
 
 .construtor__corimagemlogo__seletor {
@@ -116,7 +122,7 @@
     height: 15px;
     border-radius: 50%;
 }
-.opcoes__opcao__botao__corprevia7 {
+/* .opcoes__opcao__botao__corprevia7 {
     background-color: var(--cor7);
     margin-left: 5px;
     margin-top: 2px;
@@ -139,7 +145,7 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-}
+} */
 .opcoes__opcao__botao__corcodigo {
     text-transform: uppercase;
     margin-left: 5px;
